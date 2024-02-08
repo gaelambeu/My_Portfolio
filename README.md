@@ -1,2 +1,2 @@
 # My_Portfolio
-React JS, Tailwind CSS²
+React JS, Tailwind CSS
