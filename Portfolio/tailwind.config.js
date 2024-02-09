@@ -21,7 +21,15 @@ export default {
       lg: '960px',
       xl: '1200px',
     },
-    extend: {},
+    extend: {
+      colors: {
+        primary: '#0a0a0a',
+        accent: '#8809C3',
+      },
+      backgroundImage: {
+        
+      },
+    },
   },
   plugins: [],
 }
