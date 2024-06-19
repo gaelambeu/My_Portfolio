@@ -7,9 +7,7 @@ import { logo, menu, close } from '../assets'
 
 const Navbar = () => {
   return (
-    <nav
-      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
-    >
+    <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}>
       <div className="flex items-center justify-between w-full mx-auto max-w-7xl">
         <Link
           to="/"
@@ -20,9 +18,14 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="" className="object-contain w-9 h-9" />
-          <p className="text-white text-[18px] font-bold cursor-pointer">AMBEU <span className="hidden sm:block">| Aïba Africa son</span></p>
+          <p className="text-white text-[18px] font-bold cursor-pointer">
+            AMBEU 
+            <span className="hidden sm:block">
+              | Aïba Africa son
+            </span>
+          </p>
         </Link>
-        <p className="text-red-500">asda</p>
+        <p className="text-red-500">asdsa</p>
       </div>
     </nav>
   )
