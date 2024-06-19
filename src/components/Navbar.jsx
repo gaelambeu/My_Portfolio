@@ -20,8 +20,9 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="" className="object-contain w-9 h-9" />
-          <p>AMBEU <span>| Aïba Africa son</span></p>
+          <p className="text-white text-[18px] font-bold cursor-pointer">AMBEU <span className="hidden sm:block">| Aïba Africa son</span></p>
         </Link>
+        <p className="text-red-500">asda</p>
       </div>
     </nav>
   )
