@@ -27,7 +27,14 @@ const Navbar = () => {
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((Link) => (
-            <li>
+            <li
+              key={Link.id}
+              className={`${
+                active === Link.title
+                ? "text-white"
+                : "text-secondary"
+              }hover:text-green-700 text-[18px] font-medium cursor-pointer`}
+            >
               <a href={`#${Link.id}`}>{Link.title}</a>
             </li>
           ))}
