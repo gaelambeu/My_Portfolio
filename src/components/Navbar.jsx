@@ -6,6 +6,9 @@ import { navLinks } from '../constants'
 import { logo, menu, close } from '../assets'
 
 const Navbar = () => {
+  const [active, setActive] = useState('');
+  const [toggle, setToggle] = useState(false)
+
   return (
     <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}>
       <div className="flex items-center justify-between w-full mx-auto max-w-7xl">
@@ -40,6 +43,13 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+
+        <div 
+          className="sm:hidden flex flex-1 justify-end items-center"
+          onClick={() => setToggle(!toggle)}
+          >
+
+        </div>
       </div>
     </nav>
   )
