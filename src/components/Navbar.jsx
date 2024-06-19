@@ -25,7 +25,13 @@ const Navbar = () => {
             </span>
           </p>
         </Link>
-        <p className="text-red-500">asdsa</p>
+        <ul className="list-none hidden sm:flex flex-row gap-10">
+          {navLinks.map((Link) => (
+            <li>
+              <a href={`#${Link.id}`}>{Link.title}</a>
+            </li>
+          ))}
+        </ul>
       </div>
     </nav>
   )
