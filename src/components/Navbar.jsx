@@ -20,6 +20,7 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="" className="object-contain w-9 h-9" />
+          <p>AMBEU <span>| Aïba Africa son</span></p>
         </Link>
       </div>
     </nav>
