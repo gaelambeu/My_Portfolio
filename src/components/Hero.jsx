@@ -16,7 +16,7 @@ const Hero = () => {
             <span className="text-[#915eff]"> AMBEU</span>
           </h1>
           <p className={`${styles.heroHeadText} mt-2 text-white-100`}>
-            Je développe des sites statiques, 
+            Je développe des sites statiques, <br className="sm:block hidden" /> 
             des applications web & mobiles(full-stack),
             des interfaces 3D & utlisateurs. 
           </p>
