@@ -11,10 +11,15 @@ const Hero = () => {
           <div className="w-5 h-5 rounded-full bg-[#915eff]" />
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
-        <div className="">
-          <h1>Bonjour, Je suis 
-            <span className="text-[#915eff]">AMBEU</span>
+        <div className={`${styles.heroHeadText} text-white`}>
+          <h1>Bonjour, Je suis
+            <span className="text-[#915eff]"> AMBEU</span>
           </h1>
+          <p className={`${styles.heroHeadText} mt-2 text-white-100`}>
+            Je développe des sites statiques, 
+            des applications web & mobiles(full-stack),
+            des interfaces 3D & utlisateurs. 
+          </p>
         </div>
       </div>
     </section>
