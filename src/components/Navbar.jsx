@@ -24,7 +24,7 @@ const Navbar = () => {
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             AMBEU 
             <span className="hidden sm:block">
-              | <AEG coding />
+              | AEG coding 
             </span>
           </p>
         </Link>
