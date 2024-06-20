@@ -22,7 +22,7 @@ const Navbar = () => {
         >
           <img src={logo} alt="" className="object-contain w-9 h-9" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            AMBEU 
+            AMBEU  
             <span className="hidden sm:block">
               | AEG coding 
             </span>
